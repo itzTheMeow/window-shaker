@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello!</title>
+    <script src="./shake.latest.min.js" defer></script>
+  </head>
+  <body>
+    <button onclick="window.shake()">
+      Shake Me
+    </button>
+    <br /><br />
+    <a href="./shake.latest.js">Latest Version</a>
+    (<a href="./shake.latest.min.js">minified</a>)<br />
+    <a href="./shake.v1.0.js">v1.0</a>
+    (<a href="./shake.v1.0.min.js">minified</a>)<br /><br />
+    Simply copy the link of the one you want! Put it in a script tag and call
+    <code>window.shake()</code> to shake the window. Use the button above to
+    test it out.<br />
+    You can also use <code>window.shake([time])</code> to shake the window for a
+    period of ms.<br /><br />
+    &copy;2020 Meow
+  </body>
+</html>
